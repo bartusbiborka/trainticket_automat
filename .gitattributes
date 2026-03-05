@@ -1,14 +1,12 @@
-﻿# 1. Force VHDL as the primary language
+﻿# 1. Force everything to be ignored by default
+* linguist-vendored
+* linguist-documentation
+
+# 2. Explicitly UN-IGNORE only your VHDL code
+*.vhd linguist-vendored=false
 *.vhd linguist-language=VHDL
 
-# 2. Treat ALL .tcl files (everywhere) as generated so they are hidden from stats
-**/*.tcl linguist-vendor=true
-*.tcl linguist-vendor=true
-
-# 3. Mark Vivado-specific project files as generated/documentation
-**/*.srcs/** linguist-documentation
-**/*.ip_user_files/** linguist-documentation
-**/*.xpr linguist-generated
-**/*.xml linguist-generated
-**/*.jou linguist-generated
-**/*.log linguist-generated
+# 3. Explicitly hide Tcl and XML forever
+*.tcl linguist-detectable=false
+*.xml linguist-detectable=false
+**/*.srcs/** linguist-detectable=false
