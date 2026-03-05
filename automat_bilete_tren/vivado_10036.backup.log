@@ -1,0 +1,145 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jun  2 22:52:48 2024
+# Process ID: 10036
+# Current directory: E:/project/automat_bilete_tren
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10080 E:\project\automat_bilete_tren\automat_bilete_tren.xpr
+# Log file: E:/project/automat_bilete_tren/vivado.log
+# Journal file: E:/project/automat_bilete_tren\vivado.jou
+# Running On: DESKTOP-U80REAT, OS: Windows, CPU Frequency: 3400 MHz, CPU Physical cores: 12, Host memory: 17106 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/project/automat_bilete_tren/automat_bilete_tren.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at W:/biborka/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at W:/biborka/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at W:/biborka/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at W:/biborka/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at W:/biborka/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at W:/biborka/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at W:/biborka/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at W:/biborka/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at W:/biborka/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at W:/biborka/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/project/automat_bilete_tren/automat_bilete_tren.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'W:/biborka/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:10 . Memory (MB): peak = 1557.953 ; gain = 392.324
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Sun Jun  2 22:53:33 2024] Launched synth_1...
+Run output will be captured here: E:/project/automat_bilete_tren/automat_bilete_tren.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Sun Jun  2 22:54:57 2024] Launched impl_1...
+Run output will be captured here: E:/project/automat_bilete_tren/automat_bilete_tren.runs/impl_1/runme.log
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets btn_IBUF[1]]
+ERROR: [Common 17-53] User Exception: No open design. Please open an elaborated, synthesized or implemented design before executing this command.
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets btn_IBUF[1]]
+ERROR: [Common 17-53] User Exception: No open design. Please open an elaborated, synthesized or implemented design before executing this command.
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1981.781 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+open_run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1981.781 ; gain = 370.062
+INFO: [Common 17-344] 'open_run' was cancelled
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1981.781 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/project/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [E:/project/Nexys-A7-100T-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2096.688 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 2236.398 ; gain = 254.617
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets btn_IBUF[1]]
+WARNING: [Vivado 12-507] No nets matched 'btn_IBUF[1]'.
+ERROR: [Common 17-55] 'set_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+close_design
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+[Sun Jun  2 22:59:33 2024] Launched impl_1...
+Run output will be captured here: E:/project/automat_bilete_tren/automat_bilete_tren.runs/impl_1/runme.log
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets enter_IBUF]
+ERROR: [Common 17-53] User Exception: No open design. Please open an elaborated, synthesized or implemented design before executing this command.
+open_project <automat_bilete_tren>.xpr
+ERROR: [Coretcl 2-1982] Project file does not exist. Please provide a project file with .xpr extension. Provided: <automat_bilete_tren>.xpr
+open_project automat_bilete_tren.xpr
+ERROR: [Coretcl 2-101] Project 'automat_bilete_tren.xpr' is already open.
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets enter_IBUF]
+ERROR: [Common 17-53] User Exception: No open design. Please open an elaborated, synthesized or implemented design before executing this command.
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: automat_bilete_tren
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11864
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+5 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+INFO: [Common 17-344] 'synth_design' was cancelled
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2858.129 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/project/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [E:/project/Nexys-A7-100T-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2900.254 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets enter_IBUF]
+write_xdc -force E:/project/automat_bilete_tren.xdc
+E:/project/automat_bilete_tren.xdc
+launch_runs impl_1 -to_step write_bitstream
+ERROR: [Vivado 12-1088] Step 'place_design' needs to be reset before launching.
+The step can be reset using the Tcl command 'reset_run'. See argument '-prev_step' and '-from_step' for more info.
+reset_run
+ERROR: [Common 17-163] Missing value for option 'runs', please type 'reset_runs -help' for usage info.
+reset_run impl_1 -to_step place_design
+ERROR: [Common 17-170] Unknown option '-to_step', please type 'reset_runs -help' for usage info.
+set_property target_constrs_file E:/project/Nexys-A7-100T-Master.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file E:/project/automat_bilete_tren/automat_bilete_tren.srcs/utils_1/imports/synth_1/automat_bilete_tren.dcp with file E:/project/automat_bilete_tren/automat_bilete_tren.runs/synth_1/automat_bilete_tren.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/project/automat_bilete_tren/automat_bilete_tren.runs/synth_1
+
+launch_runs impl_1 -jobs 6
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sun Jun  2 23:05:27 2024] Launched synth_1...
+Run output will be captured here: E:/project/automat_bilete_tren/automat_bilete_tren.runs/synth_1/runme.log
+[Sun Jun  2 23:05:27 2024] Launched impl_1...
+Run output will be captured here: E:/project/automat_bilete_tren/automat_bilete_tren.runs/impl_1/runme.log
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Jun  2 23:08:37 2024] Launched impl_1...
+Run output will be captured here: E:/project/automat_bilete_tren/automat_bilete_tren.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  2 23:10:05 2024...
