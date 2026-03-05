@@ -1,12 +1,13 @@
-﻿# 1. Force everything to be ignored by default
-* linguist-vendored
-* linguist-documentation
+﻿# 1. Hide EVERYTHING from the language statistics by default
+* linguist-detectable=false
+* linguist-vendored=true
 
-# 2. Explicitly UN-IGNORE only your VHDL code
-*.vhd linguist-vendored=false
+# 2. Force only VHDL to be detectable and counted
+*.vhd linguist-detectable=true
 *.vhd linguist-language=VHDL
+*.vhd linguist-vendored=false
 
-# 3. Explicitly hide Tcl and XML forever
+# 3. Explicitly bury Tcl and XML so they never appear
 *.tcl linguist-detectable=false
 *.xml linguist-detectable=false
 **/*.srcs/** linguist-detectable=false
