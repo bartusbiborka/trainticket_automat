@@ -1,1 +1,0 @@
---incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "binary_to_bcd_behav" "xil_defaultlib.binary_to_bcd" -log "elaborate.log" 
