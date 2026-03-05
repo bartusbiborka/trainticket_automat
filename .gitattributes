@@ -1,9 +1,12 @@
-﻿# Force language detection to VHDL
+﻿# Force VHDL to be the primary language
 *.vhd linguist-language=VHDL
 
-# Treat Vivado-specific XML/project files as generated or documentation
-# This hides them from the language statistics bar
-*.xpr linguist-generated
-*.xml linguist-generated
+# Treat all Tcl files as 'generated' so they don't count towards statistics
+*.tcl linguist-generated
+**/*.tcl linguist-generated
+
+# Treat all Vivado project files as documentation/noise
 **/*.srcs/** linguist-documentation
 **/*.ip_user_files/** linguist-documentation
+**/*.xpr linguist-generated
+**/*.xml linguist-generated
